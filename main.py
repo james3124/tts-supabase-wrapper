@@ -49,7 +49,7 @@ app.add_middleware(
 # ---------------------------------------------------------------------------
 class TTSRequest(BaseModel):
     text: str
-    model: Optional[str] = "ResembleAI/chatterbox-turbo:preferred"
+    model: Optional[str] = "ResembleAI/chatterbox-turbo"
 
 class TTSResponse(BaseModel):
     request_id: str
